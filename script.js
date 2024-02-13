@@ -282,10 +282,10 @@ var Portfolio = function (_React$Component) {
 					),
 					React.createElement(
 						'form',
-						{ className: 'col-12 my-2', onSubmit: this.addStock },
+						{ className: 'col-12 mx-2', onSubmit: this.addStock },
 						React.createElement(
 							'div',
-							{ 'class': 'd-inline-block mx-2' },
+							{ 'class': 'd-inline-block mr-2' },
 							React.createElement(
 								'label',
 								{ 'for': 'newStockName' },
@@ -362,7 +362,7 @@ var Portfolio = function (_React$Component) {
 						),
 						React.createElement(
 							'button',
-							{ className: 'btn btn-primary btn-sm' },
+							{ className: 'btn btn-primary btn-sm mb-1' },
 							'add'
 						)
 					)
