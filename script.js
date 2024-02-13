@@ -282,7 +282,7 @@ var Portfolio = function (_React$Component) {
 					),
 					React.createElement(
 						'form',
-						{ className: 'col-12 mt-2', onSubmit: this.addStock },
+						{ className: 'col-12 my-2', onSubmit: this.addStock },
 						React.createElement(
 							'div',
 							{ 'class': 'd-inline-block mx-2' },
